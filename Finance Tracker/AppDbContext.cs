@@ -11,7 +11,7 @@ namespace Finance_Tracker
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            options.UseSqlServer(@"Server=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\svl75\source\repos\Finance Tracker\Finance Tracker\DataBase.mdf;Integrated Security=True;");
+            options.UseSqlServer(@"Server=(LocalDB)\MSSQLLocalDB;AttachDbFilename=YOUR_PATH_TO_DataBase;Integrated Security=True;");
         }
     }
 }
